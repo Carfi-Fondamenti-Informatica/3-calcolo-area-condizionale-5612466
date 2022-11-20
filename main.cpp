@@ -7,17 +7,18 @@ int main() {
    cin << a << b << opzione;
    switch (opzione){
       case 0:
-      cout << "area triangolo= " << ((a*b)/2) << endl;
+      result=((a*b)/2);
       break;
       case 1:
-      cout << "area quadrato= " << (a*a) << endl;
+      result=(a*a);
       break;
       case 2:
-      cout << "area rettangolo= " << (a*b) << endl; 
+      result=(a*b); 
       break;
       default:
       cout << "operazione non valida" << endl;
       break;
    }   
+   cout << result;
    return 0;
 }
