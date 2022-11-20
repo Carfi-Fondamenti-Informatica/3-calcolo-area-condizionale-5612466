@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-   float a=0, b=0;
-   int opzione=0;
+   float a, b, result;
+   int opzione;
    cin << a << b << opzione;
    switch (opzione){
       case 0:
@@ -16,7 +16,7 @@ int main() {
       result=(a*b); 
       break;
       default:
-      cout << "operazione non valida" << endl;
+      cout << "operazione non valida";
       break;
    }   
    cout << result;
